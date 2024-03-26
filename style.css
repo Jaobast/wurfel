@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@300&display=swap');
-
+@font-face {
+  font-family: 'Gopher';
+  src: url(./font/Gopher.ttf);
+  font-weight: 400;
+}
 * {
     box-sizing: border-box;
 }
@@ -15,12 +19,14 @@ h1{
   color: rgb(147, 147, 147);
 }
 
-h4, h6{
-  font-family: 'Fredoka One';
-  color: rgb(147, 147, 147);
+.Nadine{
+  margin-bottom: 40px;
 }
 
-h6{
+h4, h6{
+  font-family: 'Gopher';
+  color: rgb(147, 147, 147);
+  text-align: center;
   margin-top: -20px;
 }
 
@@ -60,7 +66,7 @@ h6{
 .bottom {transform:rotateX(-90deg) translateZ(100px);}
 
 #rename{
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 
 p{
@@ -72,10 +78,12 @@ p{
 
 input::placeholder {
   color: #ffffff;
+  font-family: 'Gopher';
 }
 
 input{
   background-color: #80a7d3;
+  font-family: 'Gopher';
   color:#ffffff;
   border: none;
   border-style: none;

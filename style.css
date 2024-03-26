@@ -50,6 +50,7 @@ h6{
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 .front {transform: translateZ(100px);}
 .back {transform: rotateX(-180deg) translateZ(100px);}

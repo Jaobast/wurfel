@@ -15,9 +15,13 @@ h1{
   color: rgb(147, 147, 147);
 }
 
-h3{
+h4, h6{
   font-family: 'Fredoka One';
   color: rgb(147, 147, 147);
+}
+
+h6{
+  margin-top: -20px;
 }
 
 .container {
@@ -71,6 +75,7 @@ input::placeholder {
 
 input{
   background-color: #80a7d3;
+  color:#ffffff;
   border: none;
   border-style: none;
   text-align: center;

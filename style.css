@@ -36,6 +36,8 @@ h4, h6{
   height: 200px;
   perspective: 400px;
   perspective-origin: 50% 100%;
+  position: absolute;
+  bottom: 17vh;
 }
 
 .cube {
@@ -44,7 +46,7 @@ h4, h6{
   transition: transform 6s;
   width: 100%;
   height: 100%;
-  top: 100px;
+  top: 10vh;
 }
 
 .cube div {
@@ -66,7 +68,6 @@ h4, h6{
 .bottom {transform:rotateX(-90deg) translateZ(100px);}
 
 #rename{
-  margin-bottom: 3vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +88,8 @@ input::placeholder {
 .sechs_personen{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  row-gap: 3px;
+  column-gap: 10px;
 }
 
 .zwei_personen, .drei_personen, .sechs_personen{
@@ -109,4 +111,17 @@ input{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+button{
+  margin-bottom: 20px;
+  background-color: rgb(147, 147, 147);
+  font-family: 'Gopher';
+  color:#ffffff;
+  border: none;
+  border-style: none;
+  text-align: center;
+  height: 20px;
+  width: 100px;
+  border-radius: 5px;
 }

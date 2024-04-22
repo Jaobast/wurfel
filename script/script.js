@@ -34,9 +34,7 @@ buttons.forEach(button => {
       } else {
           inputsToShow.style.display = 'block';
       }
-      
         
-
         // Define os textos dos parágrafos de acordo com os inputs
         const frontInput = inputsToShow.querySelector(".rename_front");
         const rightInput = inputsToShow.querySelector(".rename_right");

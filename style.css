@@ -67,6 +67,9 @@ h4, h6{
 
 #rename{
   margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 p{
@@ -81,9 +84,17 @@ input::placeholder {
   font-family: 'Gopher';
 }
 
-.zwei_personen{
+.sechs_personen{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.zwei_personen, .drei_personen, .sechs_personen{
   display: none;
 }
+
+
 input{
   background-color: #80a7d3;
   font-family: 'Gopher';

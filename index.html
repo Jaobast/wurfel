@@ -17,16 +17,15 @@
         <h6>Musst du eine Entscheidung treffen?</h6>
         <h6>Leg die Optionen auf den Buttons</h6>
         <h6>und lass den Würfel entscheiden!</h6>
-        <div class="linie1">
-            <input type="text" placeholder="front[rename]" id="rename_front">
-            <input type="text" placeholder="righ[rename]" id="rename_right">
-            <input type="text" placeholder="top[rename]" id="rename_top">
+        <div class="button_anzahl">
+            <button class="zwei">2 Personen</button>
+            <button class="drei">3 Personen</button>
+            <button class="sechs">6 Personen</button>
         </div>
 
-        <div class="linie2">
-            <input type="text" placeholder="back[rename]" id="rename_back">
-            <input type="text" placeholder="left[rename]" id="rename_left">
-            <input type="text" placeholder="bottom[rename]" id="rename_bottom">
+        <div class="zwei_personen">
+            <input type="text" placeholder="front/right/top" class="rename_front rename_right rename_top">
+            <input type="text" placeholder="back/left/bottom" class="rename_back rename_left rename_bottom">
         </div>
     </div>
 
@@ -58,7 +57,8 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/anzahl.js"></script>
 </body>
 
 </html>

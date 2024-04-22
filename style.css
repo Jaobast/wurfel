@@ -81,6 +81,9 @@ input::placeholder {
   font-family: 'Gopher';
 }
 
+.zwei_personen{
+  display: none;
+}
 input{
   background-color: #80a7d3;
   font-family: 'Gopher';
